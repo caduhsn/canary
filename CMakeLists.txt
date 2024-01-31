@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.22 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.9 FATAL_ERROR)
 
 # CMAKE
 # apt install build-essential git
@@ -113,7 +113,6 @@ option(RUN_TESTS_AFTER_BUILD "Run tests when building" OFF) # By default, tests 
 # *****************************************************************************
 # Add project
 # *****************************************************************************
-add_subdirectory(src/protobuf)
 add_subdirectory(src)
 
 if(BUILD_TESTS)

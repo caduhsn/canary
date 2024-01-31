@@ -1,3 +1,3 @@
 target_sources(${PROJECT_NAME}_lib PRIVATE
-    configmanager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/configmanager.cpp
 )

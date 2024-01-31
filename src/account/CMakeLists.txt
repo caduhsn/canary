@@ -1,4 +1,4 @@
 target_sources(${PROJECT_NAME}_lib PRIVATE
-    account.cpp
-    account_repository_db.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/account.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/account_repository_db.cpp
 )

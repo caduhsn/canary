@@ -1,9 +1,9 @@
 target_sources(${PROJECT_NAME}_lib PRIVATE
-    house/house.cpp
-    house/housetile.cpp
-    utils/astarnodes.cpp
-    utils/qtreenode.cpp
-    map.cpp
-    mapcache.cpp
-    spectators.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/house/house.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/house/housetile.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/utils/astarnodes.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/utils/qtreenode.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/map.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/mapcache.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/spectators.cpp
 )

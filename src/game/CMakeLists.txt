@@ -1,12 +1,12 @@
 target_sources(${PROJECT_NAME}_lib PRIVATE
-    functions/game_reload.cpp
-    game.cpp
-    bank/bank.cpp
-    movement/position.cpp
-    movement/teleport.cpp
-    scheduling/events_scheduler.cpp
-    scheduling/dispatcher.cpp
-    scheduling/task.cpp
-    scheduling/save_manager.cpp
-    zones/zone.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/functions/game_reload.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/game.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/bank/bank.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/movement/position.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/movement/teleport.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/scheduling/events_scheduler.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/scheduling/dispatcher.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/scheduling/task.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/scheduling/save_manager.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/zones/zone.cpp
 )

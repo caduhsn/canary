@@ -1,5 +1,5 @@
 target_sources(${PROJECT_NAME}_lib PRIVATE
-    lua_functions_loader.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/lua_functions_loader.cpp
 )
 
 add_subdirectory(core)
