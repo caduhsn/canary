@@ -26,11 +26,11 @@
 
 // Forward declaration for protobuf class
 namespace Canary {
-namespace protobuf {
-namespace appearances {
-	class Appearances;
-} // namespace appearances
-} // namespace protobuf
+	namespace protobuf {
+		namespace appearances {
+			class Appearances;
+		} // namespace appearances
+	} // namespace protobuf
 } // namespace Canary
 
 class ServiceManager;
