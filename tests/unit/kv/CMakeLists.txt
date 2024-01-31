@@ -1,3 +1,3 @@
 target_sources(canary_ut PRIVATE
-    kv_test.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/kv_test.cpp
 )
