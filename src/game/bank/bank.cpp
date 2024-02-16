@@ -80,7 +80,7 @@ const std::set<std::string> deniedNames = {
 	"paladinsample"
 };
 
-const uint32_t minTownId = 3;
+const uint32_t minTownId = 1;
 
 bool Bank::transferTo(const std::shared_ptr<Bank> destination, uint64_t amount) {
 	if (!destination) {
